@@ -1,12 +1,56 @@
-# React + Vite
+# Real-Time Crypto Price Tracker 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React + Redux Toolkit application that tracks cryptocurrency prices with simulated real-time updates, featuring dynamic sparkline charts.
 
-Currently, two official plugins are available:
+![image](https://github.com/user-attachments/assets/06c0fddc-a38a-48c4-a36e-947938f66cdb)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Features ✨
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Real-time price updates 
+- Interactive sparkline charts for 7-day trends
+- Color-coded percentage changes (green/red)
+- Responsive design for all screen sizes
+- Redux-powered state management
+- Formatted market values (B for billions, M for millions)
+
+## Technologies Used 🛠️
+
+- **Frontend**: React.js
+- **State Management**: Redux Toolkit
+- **Charts**: Chart.js
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+
+## Installation 💻
+
+1. Clone the repository:
+   git clone https://github.com/abishekak18/crypto-price-tracker.git
+   cd crypto-price-tracker
+
+2. Install dependencies:
+   npm install
+
+3. Start the development server:
+   npm start dev
+
+4. Open your browser to:
+   http://localhost:3000
+
+## Project Structure 📂
+
+src/
+├── CryptoTable.js       # Main table component
+├── SparklineChart.js    # Dynamic chart component
+├── cryptoSlice.js       # Redux slice for crypto data
+├── cryptoService.js     # WebSocket simulation
+├── App.js                   # Root component
+└── index.js                 # Entry point
+
+## Contributing 🤝
+
+Contributions are welcome! Please fork the repository and create a pull request.
+
+
+Made with ❤️ by [Abishek] | [[GitHub Profile Link](https://github.com/abishekak18)]
+
