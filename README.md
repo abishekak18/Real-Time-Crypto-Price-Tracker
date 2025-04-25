@@ -40,12 +40,12 @@ A responsive React + Redux Toolkit application that tracks cryptocurrency prices
 ## Project Structure 📂
 
 src/
-├── CryptoTable.js       # Main table component
-├── SparklineChart.js    # Dynamic chart component
-├── cryptoSlice.js       # Redux slice for crypto data
-├── cryptoService.js     # WebSocket simulation
-├── App.js                   # Root component
-└── index.js                 # Entry point
+├── App.js              # Root component
+├── CryptoTable.js      # Main table component
+├── SparklineChart.js   # Dynamic chart component
+├── cryptoService.js    # WebSocket simulation
+├── cryptoSlice.js      # Redux slice for crypto data
+└── index.js            # Entry point
 
 ## Contributing 🤝
 
